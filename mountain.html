@@ -8,6 +8,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Mountains</title>
         <link rel="stylesheet" href="/css/style.css">
+        <style>
+            body {
+              background-image: url('/images/mtnbg.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            }
+            </style>
     
     </head>
     <body>
@@ -17,11 +25,13 @@
             <div class="topnav">
                 <a class="active" href="/index.html">Home</a>
                 <a href="/mountain.html">Explore Mountains</a>
-                <a href="#contact">Contact</a>
+                <a href="/park.html">National Parks</a>
               </div>
         </nav>
     </div>
-    
+    <form name="drop_list" action="yourpage.php" method="POST">
+        <select id="mountainDropDown" onchange="displayMountain()"></select>
+    </form>
     <main>
         <div id="app"></div>
         <div id="locations"></div>
@@ -29,19 +39,16 @@
 
 
         <div id=""></div>
-        <select id="mountain">
 
-        </select>
-
-        <button onclick="topFunction()" id="mtnBtn" title="Go to top">Top</button>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         
     </main>
     </div>
-    
+
     <footer>
     </footer>
     <script src="scripts/mountainData.js"></script>
     <script src="scripts/app.js"></script>
-    <script src="/scripts/locationData.js"></script>
+    <script src="/scripts/button.js"></script>
     </body>
 </html>
