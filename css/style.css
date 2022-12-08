@@ -1,0 +1,148 @@
+body {
+  font-family: sans-serif;
+  background-color: #dedede;
+  color: #333;
+  padding: 20px 0 28px 0;
+  margin: 0;
+}
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .app-title {
+    text-align: center;
+    font-weight: normal;
+    font-size: 2.6rem;
+  }
+  
+  .mountain {
+    max-width: 650px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .mountain h4 {
+    margin: 0 0 6px 0;
+  }
+  
+  .mountain-photo {
+    float: left;
+    width: 40%;
+    margin-right: 15px;
+  }
+  
+  .mountain-name {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0 0 1rem 0;
+  }
+  
+  .mountain-desc {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0 0 1rem 0;
+  }
+  .species {
+    font-size: 0.9rem;
+    color: #888;
+    vertical-align: middle;
+  }
+  
+  .foods-list {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 17px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  
+  .footer {
+    font-size: 0.7rem;
+    color: #888;
+    text-align: center;
+    margin: 0;
+  }
+  /*Nav bar*/
+.topnav {
+  float: none;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+
+/*Responsive Nav*/
+@media screen and (max-width: 600px){
+  .topnav {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  }
+
+/*Home page*/
+.tophome {
+  float: none;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  color: white;
+  font-size: 50px;
+}
+
+.homep1 {
+  float: none;
+  position: absolute;
+  top: 57%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 10px;
+  color: aqua;
+  text-align-last: center;
+  width:500px;
+  padding-top:5px;
+}
+
+.homep2 {
+  float: none;
+  position: absolute;
+  top: 57%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 10px;
+  color: aqua;
+  text-align-last: center;
+  width:500px;
+  padding-top:5px;
+}
+
+/*scroll to top button*/
