@@ -29,9 +29,11 @@
               </div>
         </nav>
     </div>
-    <form name="drop_list" action="yourpage.php" method="POST">
-        <select id="mountainDropDown" onchange="displayMountain()"></select>
-    </form>
+    <div class="mtndrop">
+        <form name="drop_list" action="yourpage.php" method="POST">
+            <select id="mountainDropDown" onchange="displayMountain()"></select>
+        </form>
+    </div>
     <main>
         <div id="app"></div>
         <div id="locations"></div>
@@ -40,7 +42,7 @@
 
         <div id=""></div>
 
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
         
     </main>
     </div>
@@ -49,6 +51,6 @@
     </footer>
     <script src="scripts/mountainData.js"></script>
     <script src="scripts/app.js"></script>
-    <script src="/scripts/button.js"></script>
+    
     </body>
 </html>

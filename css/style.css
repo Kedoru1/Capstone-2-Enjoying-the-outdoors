@@ -175,5 +175,36 @@ body {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
-/*mountain dropdown*/
-.mountain drop
+/*Park Cards*/
+.app-title {
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.6rem;
+  top: 40%;
+}
+
+.parks {
+  max-width: 500px;
+  padding: 10px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.parks h4 {
+  margin: 0 0 6px 0;
+  text-align: center;
+}
+
+.location-name {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+/*Mountain Dropdown*/
+.mtndrop{
+  top: 50%;
+}

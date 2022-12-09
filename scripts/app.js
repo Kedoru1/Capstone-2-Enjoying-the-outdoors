@@ -57,14 +57,9 @@ function displayMountain() {
 
 
    document.getElementById("mountains").innerHTML = `
-     <h1 class="app-title"> Mountains to Plan for Your Next Trip</h1>
+     <h1 class="app-title"> Explore Mountains Around the Country!!</h1>
      ${filteredMountains.map(mountainTemplate).join("")}
-     <p class="footer">Book your next trip now!</p>
+     <p class="footer">Seek discomfort and seek adventure!!</p>
    `;  
         
 }   
-   
-   // save the selected option of dropdown into a variable.
-   // Loop over all the mountain data
-   // if Mountainame is equal to selected option
-   // Display mountain on screen
